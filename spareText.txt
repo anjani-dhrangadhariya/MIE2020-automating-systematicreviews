@@ -1,0 +1,35 @@
+\begin{comment}
+A Systematic Review (SR) aims to answer a well-framed clinical or research question using an explicit, systematic methodology with an aim to reduce the bias.
+A well-framed clinical question clearly specifies the PICO variables of interest which are the target \textbf{P}opulation, the \textbf{I}ntervention of interest, the \textbf{C}omparator intervention, key \textbf{O}utcomes~\cite{Thabane2008, cochraneHandbook}.
+The next step after framing a research question is to develop a comprehensive search strategy in order to retrieve/harvest all the studies pertaining to the question at hand~\cite{cochraneHandbook}.
+An initial search creates a list of studies that require screening for appropriateness before any meta-analysis can be carried out.~\cite{pmid12612111}
+An eligibility criteria is defined for assessing appropriateness of these studies and only those studies meeting the set of predefined criteria are included for further analysis, while the rest are excluded~\cite{cochraneHandbook, pmid10832224}.
+\end{comment}
+
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{includeVsExclude_PCA.jpg}
+    \caption{Plot of ``include" and ``exclude" classes based on the first 2 principal components of the word2vec document level features.}
+    \label{fig:classoverlap}
+\end{figure}
+
+
+
+\begin{figure}
+\centering
+\begin{subfigure}{\textwidth}
+  \centering
+  \includegraphics[width=.292\linewidth]{tsne_include_exclude}
+  %\caption{A subfigure}
+  \label{fig:sub1}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
+  \centering
+  \includegraphics[width=.4\linewidth]{tsne_include_exclude_oversampling}
+  %\caption{A subfigure}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{t-SNE projection for 25,540 studies labelled as include vs exclude before and after oversampling.}
+\label{fig:test}
+\end{figure}
